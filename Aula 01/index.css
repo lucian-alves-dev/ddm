@@ -1,0 +1,15 @@
+body {
+    background-color: lightseagreen;
+}
+
+.box {
+    width: 100px; /* largura */
+    height: 100px; /* altura */
+    border: 3px dashed #dc143c; /* espessura, estilo, cor da borda */
+}
+
+.row {
+    display: flex; /* habilita os recursos do flex */
+    flex-direction: row; /* transforma o elemento em uma linha (horizontal) */
+    gap: 30px;
+}
